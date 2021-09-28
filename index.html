@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Viajes</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+  <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+
+
+  <!-- Slider -->
+  <div class="container-fluid bg-primary">
+    <div class="row bg-dark">
+      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <!-- Wrapper for slides -->
+          <div class="carousel-item active">
+            <img src="img/carousel1.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel2.jpg" class="d-block w-100" alt="...">
+          </div>
+          <div class="carousel-item">
+            <img src="img/carousel3.jpg" class="d-block w-100" alt="...">
+          </div>
+        </div>
+
+        <!-- Left and right controls -->
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+  </div>
+  <br><br>
+
+  <!-- Content -->
+  <div class="container-fluid">
+    <div class="row">
+      <!-- Articles of Blog -->
+      <div class="col-8 border border-primary rounded pt-2 mb-4">
+        <!-- cards. -->
+        <div class="row row-cols-1 row-cols-md-2 g-4">
+          <div class="col">
+            <div class="card">
+              <img src="img/alemania.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Alemania</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Sunt eius rem suscipit
+                  fugiat, blanditiis nostrum quo facilis laboriosam dolore ex hic voluptas accusantium perferendis
+                  quasi, mollitia labore esse at deserunt!</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/españa.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">España</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Iste quia totam quo? Est
+                  harum eaque facere fugit delectus, maxime maiores esse quasi architecto sunt reiciendis tenetur, omnis
+                  minus minima animi.</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/inglaterra.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Inglaterra</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam assumenda vel
+                  aliquam nulla iusto eum praesentium! Optio quo, quae omnis amet molestiae corrupti nostrum et, maxime,
+                  dolor quam totam?</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card">
+              <img src="img/francia.jpg" class="card-img-top" alt="...">
+              <div class="card-body">
+                <h5 class="card-title">Francia</h5>
+                <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Et quam assumenda vel
+                  aliquam nulla iusto eum praesentium! Optio quo, quae omnis amet molestiae corrupti nostrum et, maxime,
+                  dolor quam totam?</p>
+                <a href="#" class="btn btn-primary">Ver más</a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+        <!--  pagination. -->
+        <br>
+        <nav aria-label="Page navigation example">
+          <ul class="pagination justify-content-center">
+            <li class="page-item">
+              <a class="page-link" href="#">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="#">1</a></li>
+            <li class="page-item"><a class="page-link" href="#">2</a></li>
+            <li class="page-item"><a class="page-link" href="#">3</a></li>
+            <li class="page-item">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          </ul>
+        </nav> <br>
+      </div>
+
+      <!-- Others -->
+      <div class="col-md-4 ">
+        <!--search articles -->
+        <form class="search" action="index.html">
+          <input type="text" class="form-control" placeholder="Buscar">
+        </form>
+        <!-- categories -->
+        <nav class="nav d-flex">
+          <a class="nav-link active" aria-current="page" href="#">Seccion Active</a>
+          <a class="nav-link" href="#">Seccion 1</a>
+          <a class="nav-link" href="#">Seccion 2</a>
+          <a class="nav-link" href="#">Seccion 3</a>
+          <a class="nav-link" href="#">Seccion 4</a>
+        </nav>
+        <!-- anuncio -->
+        <div class="d-none d-md-block">
+          <img src="http://500biz.com/images/ganadineroencuestas.gif" alt="">
+        </div>
+      </div>
+    </div>
+    
+    <!-- galery -->
+    <div class="d-grid gap-2">
+      <a href="Galery.html" class="btn btn-primary" type="button">Galeria</a>
+    </div>
+
+    <!-- Scripts -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+      crossorigin="anonymous"></script>
+</body>
+
+</html>
